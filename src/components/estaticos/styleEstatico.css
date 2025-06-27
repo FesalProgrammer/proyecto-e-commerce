@@ -1,0 +1,141 @@
+nav {
+  background-color: transparent;
+  padding: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 30px;
+}
+.link {
+  color: var(--color-titulo);
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 18px;
+}
+.main-container {
+  position: relative;
+}
+.contador{
+  position: absolute;
+  left: 1px;
+  /* right: 195px; */
+  background-color: var(--color-titulo);
+  /* color: blue; */
+  color: var(--color-primario-oscuro);
+  border-radius: 50%;
+  padding: 1px 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.contenedor-texto {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color-titulo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+.tituloPpal {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--card-background-color);
+}
+.btnCart {
+  background-color: transparent;
+  border: none;
+}
+.fa-cart-shopping {
+  color: var(--color-boton-oscuro);
+}
+.img-logo {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+.logo-text {
+  color: rgb(207, 178, 92);
+  font-size: 30px;
+}
+.img-logo:hover {
+  transform: scale(1.05);
+}
+.imgSpam {
+  height: 115px;
+  width: 115px;
+  font-size: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  background: transparent;
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  .contenedor-texto {
+    height: 10%;
+    width: 30%;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedor-texto {
+    width: 50%;
+    margin-top: -100px;
+  }
+  .main-container {
+    padding: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 825px) {
+  .contenedor-texto {
+    margin-top: -130px;
+    width: 50%;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenedor-texto {
+    margin-top: -150px;
+  }
+  .img-logo {
+    margin-left: 10px;
+  }
+  .tituloPpal {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .contenedor-texto {
+    width: 105%;
+    top: 550px;
+    left: 85%;
+    font-size: 12px;
+  }
+  .tituloPpal {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}

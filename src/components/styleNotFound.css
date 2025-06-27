@@ -1,0 +1,55 @@
+.notfound-container-ppal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.notfound-content {
+  color: #908eff;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.notfound-title {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  color: var(--color-primario);
+}
+
+.notfound-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-primario);
+}
+
+.notfound-text {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: var(--color-primario);
+}
+
+.btn-notfound {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: var(--color-primario-oscuro);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.link-volver {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.btn-notfound:hover {
+  background-color: var(--color-primario);
+}

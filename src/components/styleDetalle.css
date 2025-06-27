@@ -1,0 +1,18 @@
+.descripcion-detalle {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+.precio-detalle {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--color-titulo);
+}
+.contenedor-detalle-producto {
+  margin-bottom: 1.5rem;
+}
+.subtitulo-detalle{
+  color: #333;
+  cursor: pointer;
+}
+

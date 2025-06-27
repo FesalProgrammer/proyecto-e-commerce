@@ -1,0 +1,90 @@
+.container-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 79.6vh;
+}
+.container-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.formArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--fondo-claro);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.tituloContacto {
+  font-size: 1.6rem;
+  color: var(--color-titulo);
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.campo {
+  width: calc(100% - 25px);
+  padding: 8px 15px;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 12px;
+  border-radius: 20px;
+  color: var(--color-subtitulo);
+  background-color: var(--card-background-color);
+}
+textarea {
+  padding: 10px 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 90%;
+  background-color: var(--card-background-color);
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(110, 110, 116);
+}
+
+.btnEnviar {
+  padding: 15px 45px;
+  color: --color-titulo;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 10px;
+  background-color: var(--color-titulo);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.5s, ease-in-out;
+}
+.btnEnviar:hover {
+  background-color: var(--color-titulo-dark);
+  transform: scale(1.05);
+}
+@media (max-width: 1024px) {
+  .container-contacto {
+    height: 140vh;
+    margin-top: -180px;
+  }
+}
+@media (max-width: 868px) {
+  .container-contacto {
+    height: 100vh;
+    margin-top: -300px;
+  }
+}
+@media (max-width: 768px) {
+  .container-contacto {
+    margin-top: -100px;
+  }
+}

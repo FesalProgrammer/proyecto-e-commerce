@@ -1,0 +1,118 @@
+.container-acerca-de {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.titulo-acercaDe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: -20px;
+  color: var(--color-titulo);
+}
+.img-acerca-de {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+.container-parrafos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 50vh;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--card-background-color);
+}
+.parrafo-acerca-de {
+  font-size: 20px;
+  line-height: 1.2;
+}
+@media (max-width: 1024px) {
+  .titulo-acercaDe {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  .parrafo-acerca-de {
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-top: 5px;
+  }
+  .img-acerca-de {
+    width: 80px;
+    height: 80px;
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-acerca-de {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-acercaDe {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .img-acerca-de {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  .parrafo-acerca-de {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+@media (max-width: 480px) {
+  .container-acerca-de {
+    flex-direction: column;
+  }
+  .titulo-acercaDe {
+    font-size: 1.3rem;
+  }
+  .img-acerca-de {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .parrafo-acerca-de {
+    font-size: 16px;
+    line-height: 1;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 376px) {
+  .titulo-acercaDe {
+    font-size: 1.3rem;
+  }
+  .img-acerca-de {
+    width: 40px;
+    height: 40px;
+    margin-top: 45px;
+  }
+  .parrafo-acerca-de {
+    font-size: 16px;
+    line-height: 0.85;
+    margin-bottom: 15px;
+  }
+}
