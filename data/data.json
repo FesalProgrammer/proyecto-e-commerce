@@ -1,0 +1,125 @@
+[
+    {
+      "id": 1,
+      "nombre": "Sunderfolk",
+      "precio": 8.5,
+      "stock": 2,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDCeYsgkh0KsCe1b0N1odRqbpmkJkDYVqLg&s",
+      "categoria": "clásico",
+      "descripcion": "Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Pokemon",
+      "precio": 9.0,
+      "stock": 5,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHmhQzbThOrc7W900YcGb8n_KD6moMPWEQyQ&s",
+      "categoria": "aventura",
+      "descripcion": "Adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Split Fiction",
+      "precio": 10.0,
+      "stock": 12,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFBylUAz-ooGbA6KfGMN2wZ-YzP7Ypmt1sZg&s",
+      "categoria": "accion",
+      "descripcion": "Dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Rebel Princess",
+      "precio": 9.5,
+      "stock": 15,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgGBSed80Ul4awayaKTsbo5mSPHUx35JhTJw&s",
+      "categoria": "comedia",
+      "descripcion": "Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Frost haven",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxA3tVEuskfX4_rzLmN-P6sGe1Xxt3NqnaQ&s",
+      "categoria": "tropical",
+      "descripcion": "Amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "Fellowship",
+      "precio": 6.0,
+      "stock": 30,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTIC3PWfoltti41ECsSOyTMuPUVNiZU0VREQ&s",
+      "categoria": "sin alcohol",
+      "descripcion": "Llor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Castle Cat 2",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqbOemLLFDbQ54sXUzp9LCxf9gKJccMmNFQ&s",
+      "categoria": "comedia",
+      "descripcion": "Tamet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "nombre": "Angry Birds",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDea0aRfcP7uU8I8c6JQ9I-al1aqNmn_8EQ&s",
+      "categoria": "accion",
+      "descripcion": "Aamet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "nombre": "Army of the Dead",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rStZTYu9HwCwi2ZU8PfxC-bF52n4YIyjSA&s",
+      "categoria": "aventura",
+      "descripcion": "Uum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "nombre": "Game Room",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/minimalist-black-space-twitch-banner-design-template-2bfd970b2b20a4472a1a05a68fc0ce33.webp?ts=1732866095",
+      "categoria": "tropical",
+      "descripcion": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Gaming Time",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-gaming-cover-art-template-9767056daa7156a3ca309c5bf043cd9c.webp?ts=1698380300",
+      "categoria": "comedia",
+      "descripcion": "Ssectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    },
+    {
+      "id": 12,
+      "nombre": "Your Channel",
+      "precio": 8.0,
+      "stock": 20,
+      "imagen": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-channel-cover-template-design-832750cd36d7c698f8d120d9dbb0be77.jpg?ts=1697850028",
+      "categoria": "accion",
+      "descripcion": "Sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "cantidad": 1
+    }
+
+    
+  ]
+  
