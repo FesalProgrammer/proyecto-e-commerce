@@ -112,7 +112,7 @@ footer {
 
 @media (max-width: 768px) {
   .contenedor-texto {
-    margin-top: -150px;
+    top: 12%;
   }
   .img-logo {
     margin-left: 10px;
