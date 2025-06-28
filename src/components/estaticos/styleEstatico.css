@@ -18,12 +18,10 @@ ul {
 .main-container {
   position: relative;
 }
-.contador{
+.contador {
   position: absolute;
   left: 1px;
-  /* right: 195px; */
   background-color: var(--color-titulo);
-  /* color: blue; */
   color: var(--color-primario-oscuro);
   border-radius: 50%;
   padding: 1px 6px;
@@ -87,7 +85,6 @@ footer {
   background: transparent;
   transition: transform 0.2s ease-in-out;
 }
-
 @media (max-width: 1200px) {
   .contenedor-texto {
     height: 10%;
@@ -127,15 +124,24 @@ footer {
   }
 }
 @media (max-width: 480px) {
-  .contenedor-texto {
-    width: 105%;
-    top: 550px;
-    left: 85%;
-    font-size: 12px;
+  .img-logo {
+    margin-left: 5px;
+  }
+  .link {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
   .tituloPpal {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+  }
+  .contenedor-texto {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+  }
+  .logo-text {
+    font-size: 20px;
   }
 }
