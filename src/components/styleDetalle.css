@@ -16,3 +16,11 @@
   cursor: pointer;
 }
 
+@media (max-width: 480px) {
+  .section-detalles {
+    width: 340px;
+  }
+  .texto-detalle {
+    font-size: 0.7rem;
+  }
+}

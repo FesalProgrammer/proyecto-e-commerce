@@ -85,3 +85,18 @@
   transform: scale(1.05);
 }
 
+@media (max-width: 1200px) {
+  .containerAdmin {
+    height: 100vh;
+  }
+}
+@media (max-width: 768px) {
+  .containerAdmin {
+    height: 120vh;
+  }
+}
+@media (max-width: 576px) {
+  .containerAdmin {
+    height: 210vh;
+  }
+}

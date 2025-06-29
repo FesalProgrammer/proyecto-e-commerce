@@ -59,7 +59,7 @@ const DetallesProductos = () => {
           >
             Detalle del producto
           </h5>
-          <ul style={{paddingLeft:"0.2rem", color: "#555" }}>
+          <ul className="texto-detalle" style={{paddingLeft:"0.2rem", color: "#555" }}>
             <li>Marca: Acme</li>
             <li>Categoría: {product.categoria}</li>
             <li>SKU: {product.id * 1250}</li>
