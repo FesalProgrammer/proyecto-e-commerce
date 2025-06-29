@@ -76,7 +76,7 @@
   .img-acerca-de {
     width: 100px;
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 113px;
   }
   .parrafo-acerca-de {
     font-size: 16px;
@@ -92,12 +92,12 @@
   }
   .img-acerca-de {
     width: 50px;
-    height: 50px;
+    height: 40px;
     margin-top: 20px;
   }
   .parrafo-acerca-de {
-    font-size: 16px;
-    line-height: 1;
+    font-size: 15px;
+    line-height: .97;
     margin-top: 20px;
   }
 }
