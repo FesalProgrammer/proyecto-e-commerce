@@ -113,6 +113,7 @@ footer {
 @media (max-width: 768px) {
   .contenedor-texto {
     top: 12%;
+    z-index: 999;
   }
   .img-logo {
     margin-left: 10px;
@@ -140,6 +141,7 @@ footer {
     position: absolute;
     top: 13%;
     left: 50%;
+    z-index: 999;
   }
   .logo-text {
     font-size: 20px;
