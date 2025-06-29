@@ -55,11 +55,18 @@
 }
 @media (max-width: 1024px) {
   .cart-drawer {
-    width: 320px;
+    width: 280px;
+    height: 85%;
   }
 }
 @media (max-width: 768px) {
   .cart-drawer {
     width: 280px;
+    height: 80%;
+  }
+}
+@media (max-width: 576px) {
+  .cart-drawer {
+    height: 76%;
   }
 }
