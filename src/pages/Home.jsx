@@ -6,7 +6,6 @@ import loading from "../assets/loading.gif";
 import { CartContext } from "../context/CartContext";
 import bgInicio from "../assets/bg7.jpg";
 
-
 const Home = () => {
   const { cargando } = useContext(CartContext);
 
@@ -16,14 +15,13 @@ const Home = () => {
       <main className="main-container">
         <img src={bgInicio} alt="foto" className="img-ppal" />
         <div className="contenedor-texto">
-          <h1 className="tituloPpal">Tus videojuegos online</h1>
           <h1 className="tituloPpal">
-            compralos aqui{" "}
-            <span className="imgSpam" role="img" aria-label="videojuegos">
-              {" "}
-              🎮
-            </span>
+            Tus videojuegos online
+            <br />
+            compralos aqui
           </h1>
+          <span className="imgSpam" role="img" aria-label="videojuegos">🎮
+          </span>
         </div>
         {cargando ? <img src={loading} alt="loading" /> : <ProductList />}
       </main>

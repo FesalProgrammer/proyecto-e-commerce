@@ -32,7 +32,6 @@ ul {
   position: absolute;
   top: 17%;
   left: 35%;
-  /* transform: translate(-50%, -50%); */
   color: var(--color-titulo);
   display: flex;
   flex-direction: column;
@@ -123,6 +122,9 @@ footer {
   }
 }
 @media (max-width: 480px) {
+  .main-container {
+  min-height: 580vh;
+  }
   .img-logo {
     margin-left: 5px;
   }
@@ -133,13 +135,11 @@ footer {
   .tituloPpal {
     font-size: 1.3rem;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: -200px;
   }
   .contenedor-texto {
-    /* position: absolute; */
     top: 11%;
     left: 35%;
-    height: 100px;
   }
   .logo-text {
     font-size: 20px;

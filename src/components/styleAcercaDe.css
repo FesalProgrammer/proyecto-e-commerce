@@ -85,35 +85,21 @@
 }
 @media (max-width: 480px) {
   .container-acerca-de {
-    flex-direction: column;
+    height: 90vh;
+    padding: 0 5px;
   }
   .titulo-acercaDe {
     font-size: 1.3rem;
+    margin-bottom: 5px;
   }
   .img-acerca-de {
-    width: 50px;
-    height: 42px;
-    margin-top: -50px;
-  }
-  .parrafo-acerca-de {
-    font-size: 15px;
-    line-height: .97;
-    margin-bottom: 50px;
-    /* margin-top: 10px; */
-  }
-}
-/* @media (max-width: 376px) {
-  .titulo-acercaDe {
-    font-size: 1.3rem;
-  }
-  .img-acerca-de {
-    width: 40px;
-    height: 40px;
-    margin-top: 45px;
+    display: none;
   }
   .parrafo-acerca-de {
     font-size: 16px;
-    line-height: 0.85;
-    margin-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    
   }
-} */
+}
+
