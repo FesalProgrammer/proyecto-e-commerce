@@ -56,20 +56,20 @@ function FormularioProducto({ onAgregar }) {
               }} onSubmit={handleSubmit}>
             <h2 style={{color:'#333'}}>Agregar Producto</h2>
             <div>
-                <label style={{color:'#333'}}>Nombre:</label>
+                <label style={{color:'black'}}>Nombre:</label>
                 <input
                     type="text" name="nombre" value={producto.nombre} onChange={handleChange} required />
                 {errores.nombre && <p style={{ color: 'red' }}>{errores.nombre}</p>}
             </div>
             <div>
-                <label>Precio:</label>
+                <label style={{color:'black'}}>Precio:</label>
                 <input type="number" name="precio" value={producto.precio} onChange={handleChange} required
                     min="0" />
                 {errores.precio && <p style={{ color: 'red' }}>{errores.precio}</p>}
             </div>
 
             <div>
-                <label>Stock:</label>
+                <label style={{color:'black'}}>Stock:</label>
                 <input
                     type="number"
                     name="stock"
@@ -91,7 +91,7 @@ function FormularioProducto({ onAgregar }) {
                 {errores.imagen && <p style={{ color: 'red' }}>{errores.imagen}</p>}
             </div>
             <div>
-                <label>Categoría:</label>
+                <label style={{color:'black'}}>Categoría:</label>
                 <input
                     type="text"
                     name="categoria"

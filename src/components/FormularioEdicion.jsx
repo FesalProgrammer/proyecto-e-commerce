@@ -38,6 +38,7 @@ function FormularioEdicion({ productoSeleccionado, onActualizar }) {
             <div>
                 <label>Nombre:</label>
                 <input
+                    style={{color:'black'}}
                     type="text"
                     name="nombre"
                     value={producto.nombre || ''}
@@ -48,6 +49,7 @@ function FormularioEdicion({ productoSeleccionado, onActualizar }) {
             <div>
                 <label>Precio:</label>
                 <input
+                    style={{color:'black'}}
                     type="number"
                     name="precio"
                     value={producto.precio || ''}
@@ -59,6 +61,7 @@ function FormularioEdicion({ productoSeleccionado, onActualizar }) {
             <div>
                 <label>stock:</label>
                 <input
+                    style={{color:'black'}}
                     type="number"
                     name="stock"
                     value={producto.stock || ''}
@@ -79,6 +82,7 @@ function FormularioEdicion({ productoSeleccionado, onActualizar }) {
             <div>
                 <label>Categoria:</label>
                 <input
+                    style={{color:'black'}}
                     type="text"
                     name="categoria"
                     value={producto.categoria || ''}

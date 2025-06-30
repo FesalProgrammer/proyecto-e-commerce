@@ -20,13 +20,11 @@
     --color-descripcion: #555;
     --color-subtitulo: #888;
     
-
     --color-primario:#007bff;
     --color-primario-oscuro:#0056b3;
     
     --color-secundario:#1B1726 ;
     --fuente-primaria:Lato, sans-serif ;
-    
 }
 * {
     margin: 0;

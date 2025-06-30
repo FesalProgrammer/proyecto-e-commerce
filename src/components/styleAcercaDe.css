@@ -92,16 +92,17 @@
   }
   .img-acerca-de {
     width: 50px;
-    height: 40px;
-    margin-top: 20px;
+    height: 42px;
+    margin-top: -50px;
   }
   .parrafo-acerca-de {
     font-size: 15px;
     line-height: .97;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    /* margin-top: 10px; */
   }
 }
-@media (max-width: 376px) {
+/* @media (max-width: 376px) {
   .titulo-acercaDe {
     font-size: 1.3rem;
   }
@@ -115,4 +116,4 @@
     line-height: 0.85;
     margin-bottom: 15px;
   }
-}
+} */

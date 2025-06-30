@@ -48,6 +48,8 @@ const ProductList = () => {
           borderRadius: "15px",
           padding: "8px",
           backgroundColor: "#f0f0f0",
+          color: "#333",
+          fontWeight: "bold",
         }}
       />
 
