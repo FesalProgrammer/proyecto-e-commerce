@@ -90,7 +90,17 @@ footer {
   background-color: transparent;
   border: none;
 }
-
+.flechaArriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: var(--color-primario-oscuro);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  
+}
 @media (max-width: 1200px) {
   .contenedor-texto {
     height: 10%;
