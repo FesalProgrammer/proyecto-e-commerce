@@ -1,3 +1,29 @@
+.img-logo {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+.logo-text {
+  color: rgb(207, 178, 92);
+  font-size: 30px;
+}
+.img-logo:hover {
+  transform: scale(1.05);
+}
+.imgSpam {
+  height: 115px;
+  width: 115px;
+  font-size: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+  background: transparent;
+  transition: transform 0.2s ease-in-out;
+}
 nav {
   background-color: transparent;
   padding: 10px;
@@ -14,6 +40,15 @@ ul {
   text-decoration: none;
   padding: 0 20px;
   font-size: 18px;
+}
+.linkNavFooter {
+  color: var(--color-titulo);
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 18px;
+}
+.fa-cart-shopping {
+  color: var(--color-boton-oscuro);
 }
 .main-container {
   position: relative;
@@ -55,35 +90,7 @@ footer {
   background-color: transparent;
   border: none;
 }
-.fa-cart-shopping {
-  color: var(--color-boton-oscuro);
-}
-.img-logo {
-  height: 55px;
-  width: 55px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-left: 30px;
-  margin-bottom: 10px;
-  transition: transform 0.2s ease-in-out;
-}
-.logo-text {
-  color: rgb(207, 178, 92);
-  font-size: 30px;
-}
-.img-logo:hover {
-  transform: scale(1.05);
-}
-.imgSpam {
-  height: 115px;
-  width: 115px;
-  font-size: 45px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-left: 10px;
-  background: transparent;
-  transition: transform 0.2s ease-in-out;
-}
+
 @media (max-width: 1200px) {
   .contenedor-texto {
     height: 10%;
@@ -123,7 +130,12 @@ footer {
 }
 @media (max-width: 480px) {
   .main-container {
-  min-height: 580vh;
+    min-height: 580vh;
+  }
+  .listaNav {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
   .img-logo {
     margin-left: 5px;
