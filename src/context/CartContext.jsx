@@ -41,7 +41,7 @@ export const CartProvider = ({ children }) => {
         )
       );
     } else {
-      toast.success(`el producto ${product.nombre} se ha agregado al carrito`, {
+      toast.success(`${product.cantidad} item del producto ${product.nombre} se ha agregado al carrito`, {
         position: "top-right",
         autoClose: 1200,
         hideProgressBar: false,
@@ -55,7 +55,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const handleDeleteFromCart = (product) => {
-    toast.error(`el producto ${product.nombre} se ha eliminado del carrito`, {
+    toast.error(`Un item del producto ${product.nombre} se ha eliminado del carrito`, {
       position: "top-right",
       autoClose: 1200,
       hideProgressBar: false,

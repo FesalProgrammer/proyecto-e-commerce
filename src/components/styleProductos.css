@@ -66,10 +66,10 @@
 .qtyButton {
   background-color: var(--color-boton);
   border: none;
-  padding: 6px 12px;
+  padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   transition: background-color 0.2s;
 }

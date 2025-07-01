@@ -35,9 +35,22 @@ const Productos = ({producto}) => {
         <button className='qtyButton' onClick={increase}>+</button>
       </div>
 
-      <button style={{border:"none", borderRadius:'10px' , backgroundColor:'var(--color-boton)',color:'white', padding:'8px 10px'}} onClick={()=> handleAddToCart({...producto, cantidad:cantidad})}>Agregar al carrito</button>
+      <button style={{border:"none", borderRadius:'10px' , backgroundColor:'var(--color-boton)',color:'white', padding:'6px 10px'}} onClick={()=> handleAddToCart({...producto, cantidad:cantidad})}>Agregar al carrito</button>
 
-      <Link to={`/productos/${producto.id}`} style={{ color: 'var(--card-vermas)', textDecoration:'none' }}> Ver mas</Link>
+      <Link to={`/productos/${producto.id}`} 
+      style={{
+            display: "inline-block",
+            padding: "0.3rem 1.2rem",
+            background: "var(--color-boton)",
+            color: "#fff",
+            borderRadius: "6px",
+            textDecoration: "none",
+            fontWeight: "bold",
+            marginTop: "1rem",
+            marginBottom: "0.3rem",
+          }}>
+         Ver mas
+      </Link>
 
     </section>
   )
