@@ -11,6 +11,9 @@ import DetallesProductos from './components/DetallesProductos'
 import Login from './pages/Login'
 import RutaProtegida from './auth/RutasProtegidas'
 import { CartContext } from './context/CartContext'
+import PreguntasFrecuentes from './pages/PreguntasFrecuentes'
+import Ayuda from './pages/Ayuda'
+import TerminosYCondiciones from './pages/TerminosYCondiciones'
 
 function App() {
   
@@ -35,6 +38,12 @@ function App() {
       <Route path='/login' element={<Login />} />
 
       <Route path='*' element={<NotFound />} />
+
+      <Route path='/terminos' element={<TerminosYCondiciones />} />
+
+      <Route path='/preguntas' element={<PreguntasFrecuentes />} />
+
+      <Route path='/ayuda' element={<Ayuda />} />
 
     </Routes>
   )

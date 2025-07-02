@@ -1,29 +1,30 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./styleEstatico.css";
 import flecha from "../../assets/flecha-hacia-arriba.png";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <nav class="navFooter">
-        <ul class="listaNav">
-          <li class="listaItem">
-            <a class="linkNavFooter" href="">
+    <footer className="footer">
+      <nav className="navegacion">
+        <ul className="listaNav">
+          <li className="listaItem">
+            <Link className="linkNavFooter" to='/terminos'>
               Términos y condiciones
-            </a>
+            </Link>
           </li>
-          <li class="listaItem">
-            <a class="linkNavFooter" href="">
+          <li className="listaItem">
+            <Link className="linkNavFooter" to='/preguntas'>
               Preguntas frecuentes
-            </a>
+            </Link>
           </li>
-          <li class="listaItem">
-            <a class="linkNavFooter" href="">
+          <li className="listaItemFooter">
+            <Link className="linkNavFooter" to='/ayuda'>
               Ayuda
-            </a>
+            </Link>
           </li>
-          <li class="listaItem">
-            <a href="" class="flechaArriba">
+          <li className="listaItem">
+            <a href="" className="flechaArriba">
               <img src={flecha} alt="foto flecha" className="img-flecha" />
             </a>
           </li>
