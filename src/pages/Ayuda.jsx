@@ -12,8 +12,6 @@ const Ayuda = () => {
         <div className="container-parrafos">
           <p className="parrafo-acerca-de">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
-            quidem reiciendis, aliquam, laudantium enim voluptate omnis itaque
-            vel exercitationem beatae ad architecto obcaecati repellendus
             perspiciatis atque error ut id in alias eligendi mollitia! Deserunt
             itaque sequi impedit illum vel ipsam!
           </p>

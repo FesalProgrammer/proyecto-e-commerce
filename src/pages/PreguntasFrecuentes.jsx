@@ -13,12 +13,10 @@ const PreguntasFrecuentes = () => {
           <p className="parrafo-acerca-de">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid
             officia voluptates ea recusandae repellendus, eligendi soluta
-            explicabo, sit velit tenetur veritatis autem nisi, nostrum dolorem
             qui labore officiis asperiores magnam corporis eos neque. Eligendi
             nulla sunt perferendis.
           </p>
           <p className="parrafo-acerca-de">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae,
             libero possimus repudiandae dignissimos, dolor facere tempore
             corrupti asperiores vitae non ullam exercitationem corporis ratione
             saepe deleniti ducimus consectetur. Maxime quibusdam minus suscipit
