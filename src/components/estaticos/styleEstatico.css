@@ -103,13 +103,15 @@ footer {
 }
 @media (max-width: 1200px) {
   .contenedor-texto {
-    height: 10%;
-    width: 30%;
+    top: 12%;
+    left: 32%;
+    /* height: 10%;
+    width: 30%; */
   }
 }
 @media (max-width: 1024px) {
   .contenedor-texto {
-    margin-top: -100px;
+    top: 8%;
   }
   .main-container {
     padding: 10px;
@@ -119,15 +121,16 @@ footer {
 
 @media (max-width: 825px) {
   .contenedor-texto {
-    margin-top: -130px;
-    font-size: 12px;
+    top: 9%;
+    left: 25%;
+    font-size: 11px;
   }
 }
 
 @media (max-width: 768px) {
   .contenedor-texto {
-    top: 8%;
-    left: 80%;
+    top: 7%;
+    left: 24%;
   }
   .img-logo {
     margin-left: 10px;
@@ -156,13 +159,15 @@ footer {
     margin-bottom: 10px;
   }
   .tituloPpal {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-top: -200px;
   }
   .contenedor-texto {
-    top: 11%;
-    left: 35%;
+    top: 8.5%;
+    left: 22%;
+    z-index: 999;
+    height: min-content;
   }
   .logo-text {
     font-size: 20px;
